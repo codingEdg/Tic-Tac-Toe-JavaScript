@@ -25,7 +25,7 @@ let board = document.getElementById("board");
 // Loop through all elemeents to addEventListener on click of each cell
 // set object property ({once : true}): once we click on a cell to fire event it will fire event only once
 startGame();
-restartBTN.addEventListener("click", startGame);
+restartButton.addEventListener("click", startGame);
 
 function startGame() {
   circleTurn = false;
